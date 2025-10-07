@@ -6,10 +6,6 @@
   min-height: 100svh;
 }
 
-.header {
-  display: flex;
-}
-
 .main {
   display: flex;
   flex-direction: column;
