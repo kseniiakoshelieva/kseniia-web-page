@@ -15,7 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <NextIntlClientProvider>
-        <body>{children}</body>
+        <body>
+          <div className="appContainer">{children}</div>
+        </body>
       </NextIntlClientProvider>
     </html>
   );

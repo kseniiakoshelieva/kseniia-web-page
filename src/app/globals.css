@@ -6,7 +6,12 @@
   margin: 0;
 }
 
-html,
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.appContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
